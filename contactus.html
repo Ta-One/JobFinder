@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JobFinder - Enviar vaga</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container" id="sendjobs">
+		<header>
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="img/logo.png" alt="JobFinder">
+					</a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="./findjobs.html">Encontrar vaga</a><li>
+                        <li><a href="./sendjobs.html">Enviar vaga</a></li>
+                        <li><a href="./contactus.html">Contato</a><li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main id="sendjobs-container" class="wrapper">
+            <h1>Contate-nos</h1>
+            <div class="input-box">
+                <label>Descrição <span class="required">*</span></label>
+                <input type="text" name="jobtitle" placeholder="Insira a descrição da mensagem">
+            </div>
+            <div class="input-box">
+                <label>Mensagem <span class="required">*</span></label>
+                <textarea name="description" placeholder="Insira sua mensagem"></textarea>
+            </div>
+            <div class="input-box">
+                <label>Nome da empresa <span class="required">*</span></label>
+                <input type="text" name="company" placeholder="Insira o nome da empresa">
+            </div>
+            <form>
+                <div class="input-box">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="./img/logo.png">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais fácil de encontrar seu próximo emprego</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="article-footer">
+                        <h2>Artigos recentes</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/profissoes-do-futuro">Profissões do futuro: veja quais são e como se preparar</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/objetivo-curriculo">Objetivo para currículo: saiba o que é e como fazer</a>
+                                <span class="article-date">05 de Junho de 2022</span>
+                            </li>
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/carta-de-apresentacao">Carta de apresentação: veja modelo pronto, como fazer e mais!</a>
+                                <span class="article-date">05 de Novembro de 2022</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="https://twitter.com/TaOne0707">
+                                <i class="fab fa-twitter-square"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Ta-One">
+                                <i class='fab fa-github-square'></i>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tauan-araujo/">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>TaOne - 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="./js/scripts.js"></script>
+</html>

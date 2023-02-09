@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JobFinder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="img/logo.png" alt="JobFinder">
+					</a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="./findjobs.html">Encontrar vaga</a><li>
+                        <li><a href="./sendjobs.html">Enviar vaga</a></li>
+                        <li><a href="./contactus.html">Contate-nos</a><li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="main-banner">
+                <div id="search-form">
+                    <h1>A maneira mais facil de encontrar seu novo emprego</h1>
+                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
+                    <form>
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="region">
+                            <option value="">Todos os estados</option>
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="sp">São Paulo</option>                           
+                            <option value="se">Sergipe</option>
+                            <option value="to">Tocantins</option>
+                        </select>
+                        <select name="category">
+                            <option value="">Categoria</option>
+                            <option value="pj">PJ</option>
+                            <option value="clt">CLT</option>
+                            <option value="homeoffice">Home Office</option>
+                            <option value="freelancer">Freelancer</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Últimas vagas enviadas</h1>
+            <ul>
+                <li>
+                    <a href="./job1.html" class="clickarea">
+                        <div class="company-box">
+                            <img src="./img/googlelogo.png">
+                            <div class="company-info">
+                                <h3>Software Engineer, Front End</h3>
+                                <p>Google</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Varsóvia, Polônia</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="clt">CLT</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job2.html" class="clickarea">
+                        <div class="company-box">
+                            <img src="./img/ibmlogo.png">
+                            <div class="company-info">
+                                <h3>Architect Backend AWS Cloud</h3>
+                                <p>IBM</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job3.html" class="clickarea">
+                        <div class="company-box">
+                            <img src="./img/linkedinlogo.png">
+                            <div class="company-info">
+                                <h3>Software Engineer - UI</h3>
+                                <p>Linkedin</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Carnataca, Índia</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="homeoffice">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./job4.html" class="clickarea">
+                        <div class="company-box">
+                            <img src="./img/facebooklogo.png">
+                            <div class="company-info">
+                                <h3>Jr Data Analyst Part Time</h3>
+                                <p>Facebook</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Catalunha, Espanha</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="./findjobs.html" class="btn-jobs">Ver mais vagas</a>
+            </div>
+        </main>
+        <section id="sendjobs-container">
+            <div id="sendjobs-inner" class="wrapper">
+                <h2>Anunciar uma vaga e recrutar talentos nunca foi tão fácil</h2>
+                <p>Publique uma vaga de emprego e receba os melhores currículos.</p>
+                <a href="./sendjobs.html" class="light-btn">Enviar vaga</a>
+            </div>
+        </section>
+        <section id="status-container" class="wrapper">
+            <h2 class="title-center">Estatísticas do JobFinder</h2>
+            <p class="p-center">Somos uma plataforma que conecta profissionais a empresas que procuram talentos. A nossa missão é mudar a vida das pessoas por meio do trabalho, oferecendo acesso gratuito a todos os candidatos.</p>
+            <div>
+                <div class="status-box">
+                    <span class="status-qtd">2mil</span>
+                    <p class="status-text">Vagas abertas</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">1,5mil</span>
+                    <p class="status-text">Candidados contratados</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">1mil</span>
+                    <p class="status-text">Empresas participantes</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">4mil</span>
+                    <p class="status-text">Candidatos</p>
+                </div>
+            </div>
+        </section>
+        <section id="testmony-container">
+            <div class="wrapper">
+                <h2>O que dizem os candidatos</h2>
+                <p class="p-center">Veja as experiências de outros clientes ao usarem a nossa plataforma</p>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Ja uso a plataforma a algum tempo, e como sempre fui bem correspondido. Sempre me perguntam como eu consigo empregos tao rapido, eu respondo va ao Jobfinders</p>
+                    <img src="./img/avatar1.png">
+                    <p class="testmony-name">Lincoln Monteiro</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Excelente site com dicas importantes sobre como se destacar o curriculo no mercado. Envio de vaga de acordo com a pesquisa e alem de diversas opções de pesquisa</p>
+                    <img src="./img/avatar2.png">
+                    <p class="testmony-name">Isadora de Borba</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Deixo aqui a minha mais sincera adimiração e agradecimento por esse site que sempre me ajudou em todos os momentos em que mais precisava ter um emprego</p>
+                    <img src="./img/avatar3.png">
+                    <p class="testmony-name">Luis da Silva</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Otimo site de busca, informações claras e de facil acesso, tanto para quem busca uma vaga quanto para empresas que querem anunciar suas vagas</p>
+                    <img src="./img/avatar4.png">
+                    <p class="testmony-name">Laura Madeira</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog-container" class="wrapper">
+            <h2 class="title-center">Últimos artigos do nosso blog</h2>
+            <p class="p-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos officia nam, possimus aliquam voluptas sit deleniti corrupti, recusandae illum ullam nemo! Assumenda cumque mollitia quasi ex! Assumenda quos repellat inventore!</p>
+            <div class="article-box">
+                <img src="./img/blog1.jpg">
+                <h4><a href="https://www.gupy.io/blog-do-emprego/carta-de-apresentacao">Carta de apresentação: veja modelo pronto, como fazer e mais!</a></h4>
+                <p class="article-date">05 de Novembro de 2022 | 221 comentários</p>
+                <p class="article-resume">Carta de apresentação é um texto de apresentação para uma empresa. Algumas empresas pedem esse documento no processo seletivo com o objetivo de conhecer melhor a pessoa que está se candidatando à vaga e avaliar se ela possui os requisitos.</p>
+                <a href="https://www.gupy.io/blog-do-emprego/carta-de-apresentacao" class="article-btn light-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="./img/blog2.jpg">
+                <h4><a href="https://www.gupy.io/blog-do-emprego/objetivo-curriculo">Objetivo para currículo: saiba o que é e como fazer</a></h4>
+                <p class="article-date">05 de Junho de 2022 | 143 comentários</p>
+                <p class="article-resume">Se alguma vez você já pesquisou como fazer um currículo, já deve ter visto alguns sites indicando o objetivo como o primeiro tópico a ser abordado. Você pode ter se perguntado para que ele serve e o que colocar nele. Neste artigo, vamos discutir sobre esse assunto e mostrar que talvez você não precise mais se preocupar com esse tópico do seu currículo.</p>
+                <a href="https://www.gupy.io/blog-do-emprego/objetivo-curriculo" class="article-btn light-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="./img/blog3.jpg">
+                <h4><a href="https://www.gupy.io/blog-do-emprego/profissoes-do-futuro">Profissões do futuro: veja quais são e como se preparar</a></h4>
+                <p class="article-date">05 de Fevereiro de 2023 | 110 comentários</p>
+                <p class="article-resume">Profissões do futuro são as carreiras de diferentes áreas do conhecimento que têm grandes chances de estarem em alta nos próximos anos. Sabendo quais são elas, os profissionais podem desenvolver habilidades a partir de agora e se preparar para o futuro. Você já deve ter percebido que o mercado de trabalho sofreu uma grande transformação nos ...</p>
+                <a href="https://www.gupy.io/blog-do-emprego/profissoes-do-futuro" class="article-btn light-btn">Ler post</a>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="./img/logo.png">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais fácil de encontrar seu próximo emprego</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="article-footer">
+                        <h2>Artigos recentes</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/profissoes-do-futuro">Profissões do futuro: veja quais são e como se preparar</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/objetivo-curriculo">Objetivo para currículo: saiba o que é e como fazer</a>
+                                <span class="article-date">05 de Junho de 2022</span>
+                            </li>
+                            <li>
+                                <a href="https://www.gupy.io/blog-do-emprego/carta-de-apresentacao">Carta de apresentação: veja modelo pronto, como fazer e mais!</a>
+                                <span class="article-date">05 de Novembro de 2022</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="https://twitter.com/TaOne0707">
+                                <i class="fab fa-twitter-square"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Ta-One">
+                                <i class='fab fa-github-square'></i>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tauan-araujo/">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>TaOne - 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="./js/scripts.js"></script>
+</html>
